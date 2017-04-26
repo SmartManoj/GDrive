@@ -7,6 +7,7 @@
 // @match        https://drive.google.com/uc?id=*&export=download*
 // @grant        none
 // ==/UserScript==
+
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
